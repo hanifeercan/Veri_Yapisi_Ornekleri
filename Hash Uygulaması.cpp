@@ -1,5 +1,5 @@
-#include<stdio.h>   // Hash veri yapisi kullanarak sirali ogrenci not tablosu olusturma.
-#include<stdlib.h>
+#include<stdio.h>   // Ä°ceriginde "ogrenci_no isim not" seklinde ogrenci bilgileri bulunan txt doyasindan bilgileri cekerek
+#include<stdlib.h>  // Hash veri yapisi ile sirali ogrenci not tablosu olusturma.
 #include<string.h>
 #define boyut 10
 
@@ -64,7 +64,7 @@ void txt_dosyasindan_hasha_ekle(){ //txt dosyasindan veri ekleme
 	int ogr_no,notu,index,kontrol;
 	char ad[20];
 	FILE *fp;
-	fp=fopen("veri.txt","r");
+	fp=fopen("ogrenci_bilgileri.txt","r");
 	if(fp==NULL){
 		printf("\n\nDosyadan okuma hatasi!\n\n");
 		exit(0);
@@ -117,7 +117,7 @@ void txt_dosyasindan_hasha_ekle(){ //txt dosyasindan veri ekleme
 							}		
 						}
 					}
-					if(veri_liste[index2].notu==NULL){//Veri listenin index2 alaný bossa ekleme yapar.
+					if(veri_liste[index2].notu==NULL){//Veri listenin index2 alanÄ± bossa ekleme yapar.
 						for(int i=0;ad[i]!='\0';i++){
 							veri_liste[index2].ad[i]=ad[i];
 						}
@@ -171,7 +171,7 @@ void ekle(){  //Kullanici girisi ile ekleme
 				if(hash_tablo[index][1]==-1){//Hash tablosundaki ilgili next kismi bos ise index2 yi ekler.
 					hash_tablo[index][1]=index2;
 				}
-				else{//Next kismi dolu ise ilk buldugu bos next kisma index2'nin deðerini ekler.
+				else{//Next kismi dolu ise ilk buldugu bos next kisma index2'nin deÄŸerini ekler.
 					for(int i=0;i<boyut;i++){
 						if(hash_tablo[i][1]==-1){
 							hash_tablo[i][1]=index2;
@@ -220,11 +220,11 @@ void arama(){
 	printf("Bulmak istediginiz ogrencinin notunu giriniz: ");
 	scanf("%d",&notu);
 	index=hash(notu);
-	if(hash_tablo[index][0]==notu){//Aradýgýn notu hash indexindeki not ile ayný ise
+	if(hash_tablo[index][0]==notu){//AradÄ±gÄ±n notu hash indexindeki not ile aynÄ± ise
 		printf("%d  %s  %d\n",veri_liste[index].ogr_no,veri_liste[index].ad,veri_liste[index].notu);
 		kontrol=1;
 	}
-	else{//Ayný degil ise
+	else{//AynÄ± degil ise
 		while(hash_tablo[index][1]!=-1){//Ve Hashin next degeri baska bir indexin degerini tutuyorsa 
 			sayac++;
 			index=hash_tablo[index][1];
