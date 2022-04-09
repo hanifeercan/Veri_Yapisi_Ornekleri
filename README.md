@@ -1,24 +1,25 @@
 # Veri_Yapisi_Ornekleri
-		Stack Veri Yapısı
+		Stack Veri Yapısı Örneği:
 		
-		Kullanıcıdan "sayı[string]" girdisi alan ve ekrana sayı kez string yazdıran program. 
+			Kullanıcıdan "sayı[string]" girdisi alan ve ekrana sayı kez string yazdıran program. 
 		Örneğin :  2[cd4[a]]  ->  aaaadcaaaadc
 
 
-		Tek Yönlü Bağlı Liste Yapısı
+		Tek Yönlü Bağlı Liste Yapısı Örneği:
 		
-		Tek bilinmeyenli P(x) polinomuna ait x bağımsız  değiskeninin derecelerini ve katsayılarını tamsayı									olarak tutan tek yönlü bağlı liste yapısı oluşturma.
+			Tek bilinmeyenli P(x) polinomuna ait x bağımsız  değiskeninin derecelerini ve katsayılarını tamsayı								olarak tutan tek yönlü bağlı liste yapısı oluşturma.
 
 
-		Hash Veri Yapısı
+		Hash Veri Yapısı Örnepi:
 		
 		Txt dosyasından öğrenci bilgilerini alıp hash not tablosu oluşturan program.
 		
 		
-		Graf Veri Yapısı
+		Graf Veri Yapısı Örnekleri:
 		
-		Komşuluk Matrisi Oluşturma
+		Txt dosyasından matris çekerek komşuluk matrisi oluşturan program.
 		
-		Komşuluk Listesi Oluşturma
+			Txt dosyasından matris çekerek komşuluk matrisi , komşuluk matrisinden hash yapısına sahip komşuluk 
 		
-		Breadth First Search Algoritması
+		listesini oluşturan ve liste ile Breadth First Search algoritması ile grafı gezen program.
+	
