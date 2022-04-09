@@ -7,8 +7,8 @@ Hash Veri Yapısı
 
 Graf Veri Yapısı
 
-		Komşuluk Matrisi Oluşturma
+	-Komşuluk Matrisi Oluşturma
 		
-		Komşuluk Listesi Oluşturma
+	-Komşuluk Listesi Oluşturma
 		
-		Breadth First Search Algoritması
+	-Breadth First Search Algoritması
