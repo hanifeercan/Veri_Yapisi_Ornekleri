@@ -9,7 +9,6 @@
 		
 		Tek bilinmeyenli P(x) polinomuna ait x bağımsız değiskeninin derecelerini ve katsayılarını
 		tamsayı	olarak tutan tek yönlü bağlı liste yapısı oluşturma.
-		P(x)=2x^4+3x^2-4x
 
 
 		Hash Veri Yapısı Örneği:
