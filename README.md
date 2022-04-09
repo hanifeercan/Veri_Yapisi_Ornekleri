@@ -5,14 +5,20 @@
 		Örneğin :  2[cd4[a]]  ->  aaaadcaaaadc
 
 
-Tek Yönlü Bağlı Liste Yapısı
-
-Hash Veri Yapısı
-
-Graf Veri Yapısı
-
-	-Komşuluk Matrisi Oluşturma
+		Tek Yönlü Bağlı Liste Yapısı
 		
-	-Komşuluk Listesi Oluşturma
+		Tek bilinmeyenli P(x) polinomuna ait x bağımsız  değiskeninin derecelerini ve katsayılarını tamsayı									olarak tutan tek yönlü bağlı liste yapısı oluşturma.
+
+
+		Hash Veri Yapısı
 		
-	-Breadth First Search Algoritması
+		Txt dosyasından öğrenci bilgilerini alıp hash not tablosu oluşturan program.
+		
+		
+		Graf Veri Yapısı
+		
+		Komşuluk Matrisi Oluşturma
+		
+		Komşuluk Listesi Oluşturma
+		
+		Breadth First Search Algoritması
