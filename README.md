@@ -7,7 +7,8 @@
 
 		Tek Yönlü Bağlı Liste Yapısı Örneği:
 		
-			Tek bilinmeyenli P(x) polinomuna ait x bağımsız  değiskeninin derecelerini ve katsayılarını tamsayı								olarak tutan tek yönlü bağlı liste yapısı oluşturma.
+			Tek bilinmeyenli P(x) polinomuna ait x bağımsız değiskeninin derecelerini ve katsayılarını
+		tamsayı	olarak tutan tek yönlü bağlı liste yapısı oluşturma.
 
 
 		Hash Veri Yapısı Örnepi:
@@ -17,9 +18,9 @@
 		
 		Graf Veri Yapısı Örnekleri:
 		
-		Txt dosyasından matris çekerek komşuluk matrisi oluşturan program.
+		Graf örnek-1: Txt dosyasından matris çekerek komşuluk matrisi oluşturan program.
 		
-			Txt dosyasından matris çekerek komşuluk matrisi , komşuluk matrisinden hash yapısına sahip komşuluk 
+		Graf örnek-2: Txt dosyasından matris çekerek komşuluk matrisi , komşuluk matrisinden hash yapısına sahip komşuluk 
 		
 		listesini oluşturan ve liste ile Breadth First Search algoritması ile grafı gezen program.
 	
